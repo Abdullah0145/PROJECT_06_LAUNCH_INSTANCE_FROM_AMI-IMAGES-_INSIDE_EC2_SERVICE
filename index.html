@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-06-Launch instance from AMI (Images) inside EC2 Service</title>
+</head>
+<body>
+    <h1>::Project_06_Launch instance from AMI (Images) Inside EC2 Service::</h1>
+    <h4>::Login With Root User::</h4>
+    <p>Step 1: first "login/sign-in" with "Root User" on "AWS Management Console".</p>
+    <img src="./Project_Image_06/Screenshot(01).png" width="1000px" height="450px">
+    <p>Step 2: Give the "email address" of the "Root User:(mdabdullahsheikh880@gmail.com)" on "AWS Management Console".</p>
+    <img src="./Project_Image_06/Screenshot(02).png" width="1000px" height="450px">
+    <p>Step 3: Give the Password of the "Root User:(Abdullah@-0***)" on "AWS Management console".</p>
+    <img src="./Project_Image_06/Screenshot(03).png" width="1000px" height="450px">
+    <h4>::Launch Instance::</h4>
+    <p>Step 4: Search "EC2 Service" on the Search box and go to the inside "EC2 Service".</p>
+    <img src="./Project_Image_06/Screenshot(04).png" width="1000px" height="450px">
+    <img src="./Project_Image_06/Screenshot(05).png" width="1000px" height="450px">
+    <p>Step 5: In left corner given "Instances" and click on that "Instances" and after In right corner upperside given "Launch Instances" go and click on that "Launch Instances"</p>
+    <img src="./Project_Image_06/Screenshot(06).png" width="1000px" height="450px">
+    <p>Step 6: Inside "Launch an Instance" given "Name and tags" you can give the "Name:WebServer01" [It is upto you whatever you want to give any name inside "Name and tags", you can give any "Name and tags"].</p>
+    <img src="./Project_Image_06/Screenshot(07).png" width="1000px" height="450px">
+    <p>Step 7: Inside "Launch "Application and OS Images (Amazon Machine Image{AMI})"gievn "Quick Start" you can select anyone "AMI" from the "Quick Start" for Example:"Amazon linux", or "MacOS", or "Ubuntu", or "Windows", RedHat, etc...(Whatever you want, you can select anyone as your preference "AMI")But, now i can select one option "AMI" from the "Quick Start" "Amazon-linux", after you can keep in default.</p>
+    <img src="./Project_Image_06/Screenshot(08).png" width="1000px" height="450px">
+    <p>Step 8: Inside "Launch an Instance" given "Instance type" you can select on that "t2.micro"</p>
+    <img src="./Project_Image_06/Screenshot(09).png" width="1000px" height="450px">
+    <p>Step 9: Inside "Launch an Instance" given "key pair(login)" you can give anyone "Key pair name:mine_key".</p>
+    <img src="./Project_Image_06/Screenshot(10).png" width="1000px" height="250px">
+    <p>Step 10: Inside "Launch an Instance" given "Network Settings" click on "Edit" button on right side corner in "Network settings" and after select default "VPC:vpc0d03551655320d***", and select "Subnet:No preference"(Here i am not given any preference zone), and "Auto-assign Public IP:Enable", select on that "Create security group" and you can give the name of "Security group name:winserver-sec-2pm" and you can give same "Description:winserver-sec-2pm", In "Inbound security group rules" give the permission "type:ssh, "Protcol:TCP", Port range:22, "Source type:Anywhere", "Source(0.0.0.0/0)" "Description: Securly connecting Host Server(Linux and Ubuntu Server)" and after go and click on that "Add security group rule" and also Allow "type:HTTP, "Protcol:TCP", Port range:80, "HTTP:80", "Source type:AnyWhere(0.0.0.0/0)", you can select "Source:0.0.0.0/0" and you can type on "description:for Web Hosting" and after go and click on that "Add security group rule" and also Allow "type:HTTPS, "Protcol:TCP", Port range:443, "Source type:Anywhere", "Source(0.0.0.0/0)" "Description:Security for Web Hosting"and after go and click on that "Add security group rule" and also Allow "type:rdp, "Protcol:TCP", Port range:3389, "Source type:Anywhere", "Source(0.0.0.0/0)" "Description:Securly conneting with Windows Server" and after you can keep in default everything and after click on that "Launch Instance".</p>
+    <img src="./Project_Image_06/Screenshot(12).png" width="1000px" height="450px">
+    <img src="./Project_Image_06/Screenshot(13).png" width="1000px" height="450px">
+    <img src="./Project_Image_06/Screenshot(14).png" width="1000px" height="450px">
+    <img src="./Project_Image_06/Screenshot(15).png" width="1000px" height="450px">
+    <p>Step 11: After that you will get notification message, Saying that you have to Successfully "Launch Instances", After click on that "View all Instances" In below given dashboard Image.</p>
+    <img src="./Project_Image_06/Screenshot(17).png" width="1000px" height="450px">
+    <img src="./Project_Image_06/Screenshot(18).png" width="1000px" height="450px">
+    <p>Step 12:</p>
+</body>
+</html>  
