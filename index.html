@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-06-Launch instance from AMI (Images) inside EC2 Service</title>
+    <title>Launch instance from AMI (Images) inside EC2 Service</title>
 </head>
 <body>
     <h1>::Project_06_Launch instance from AMI (Images) Inside EC2 Service::</h1>
@@ -46,6 +46,7 @@
     <p>Step 15:Our html page is ready to check launch your server with running or not on your browser? after select the "checkbox:Webserver01, after go and copy on that "Public IPV4 Address:3.110.219.224" and after Paste the "Public IPV4 address:3.110.219.224" in another browser, finally, you can seen "Welcome to India" in your browser Successfully.</p>
     <img src="./Project_Image_06/Screenshot(24).png" width="1000px" height="450px">
     <img src="./Project_Image_06/Screenshot(25).png" width="1000px" height="450px">
+    <h3>::Create Image(AMI) Inside WebServer01::</h3>
     <p>Step 16:I want to convert this instance into AMIs(Images), after select the "Checkbox:Webserver01", after go and click on that "Actions", and after go and click on that "image and templates", and after go and click on that "Create image" in Mumbai Region.</p>
     <img src="./Project_Image_06/Screenshot(26).png" width="1000px" height="450px">
     <p>Step 17:Inside "Create image" in "Instance ID" you can give the "Image name: my-img-mummbai", in Mumbai region.</p>
@@ -54,6 +55,7 @@
     <img src="./Project_Image_06/Screenshot(28).png" width="1000px" height="450px">
     <p>Step 19:Finally "Create Image" in Mumbai region Successfully</p>
     <img src="./Project_Image_06/Screenshot(29).png" width="1000px" height="450px">
+    <h4>::Copy AMI In Mumbai Region::</h4>
     <p>Step 20:After go and select on that "Amazon Machine Image(AMIs):my-img-mumbai " inside in EC2 service in Mumbai region, Once it is showing status "Available" in Mumbai region, and after go and click on that "Actions", after go and click on that "Copy AMI" in Mumbai region.</p>
     <img src="./Project_Image_06/Screenshot(30).png" width="1000px" height="450px">
     <p>Step 21:Inside "Copy AMI" you can select the any "Destination region" Asia Pacific(Singapore)" region, because this is very low costly in singapore region that's we are using Singapore region, but others regions are very high costly that's why we are not using that one, After go and click on that "Copy AMI"</p>
@@ -63,6 +65,7 @@
    <img src="./Project_Image_06/Screenshot(33).png" width="1000px" height="450px">
    <p>Step 23:After go and select on that "Asia Pacific(Singapore) region (ap-southeast-1) from Mumbai region.</p> 
    <img src="./Project_Image_06/Screenshot(34).png" width="1000px" height="450px">
+   <h4>::Launch Instance in Singapore Region::</h4>
    <p>Step 24:After Select the Checkbox "Amazon Machine images(AMIs):my-img-singapore", and after go and click on that "Launch instance" from AMI in singapore region.</p>
    <img src="./Project_Image_06/Screenshot(35).png" width="1000px" height="450px">
    <p>Step 25:Inside "Launch an Instance" give "Name and tags" you can give the "Name:Singapore-WebServer" in Singapore region, after keep in default in somethings.</p>
