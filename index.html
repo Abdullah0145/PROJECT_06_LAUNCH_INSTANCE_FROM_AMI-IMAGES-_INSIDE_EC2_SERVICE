@@ -6,7 +6,7 @@
     <title>Launch instance from AMI (Images) inside EC2 Service</title>
 </head>
 <body>
-    <h1>::Project_06_Launch instance from AMI (Images) Inside EC2 Service::</h1>
+    <h1>::Project_06_Launch instance from AMI (Images) Inside EC2 Service from Mumbai Region into Singapore region::</h1>
     <h4>::Login With Root User::</h4>
     <p>Step 1:first "login/sign-in" with "Root User" on "AWS Management Console".</p>
     <img src="./Project_Image_06/Screenshot(01).png" width="1000px" height="450px">
@@ -14,10 +14,10 @@
     <img src="./Project_Image_06/Screenshot(02).png" width="1000px" height="450px">
     <p>Step 3:Give the Password of the "Root User:(Abdullah@-0***)" on "AWS Management console".</p>
     <img src="./Project_Image_06/Screenshot(03).png" width="1000px" height="450px">
-    <h4>::Launch Instance::</h4>
     <p>Step 4:Search "EC2 Service" on the Search box and go to the inside "EC2 Service".</p>
     <img src="./Project_Image_06/Screenshot(04).png" width="1000px" height="450px">
     <img src="./Project_Image_06/Screenshot(05).png" width="1000px" height="450px">
+    <h4>::Launch Instance::</h4>
     <p>Step 5:In left corner given "Instances" and click on that "Instances" and after In right corner upperside given "Launch Instances" go and click on that "Launch Instances"</p>
     <img src="./Project_Image_06/Screenshot(06).png" width="1000px" height="450px">
     <p>Step 6:Inside "Launch an Instance" given "Name and tags" you can give the "Name:WebServer01" [It is upto you whatever you want to give any name inside "Name and tags", you can give any "Name and tags"].</p>
@@ -34,56 +34,93 @@
     <img src="./Project_Image_06/Screenshot(14).png" width="1000px" height="450px">
     <img src="./Project_Image_06/Screenshot(15).png" width="1000px" height="450px">
     <p>Step 11:After that you will get notification message, Saying that you have to Successfully "Launch Instances", After click on that "View all Instances" In below given dashboard Image.</p>
+    <img src="./Project_Image_06/Screenshot(16).png" width="1000px" height="450px">
     <img src="./Project_Image_06/Screenshot(17).png" width="1000px" height="450px">
-    <img src="./Project_Image_06/Screenshot(18).png" width="1000px" height="450px">
     <p>Step 12:After select the "Checkbox:WebServer01", after go and click on that "Connect", and after go and click on that "EC2 instance connect", and after go and click on that "Connect".</p>
+    <img src="./Project_Image_06/Screenshot(18).png" width="1000px" height="450px">
     <img src="./Project_Image_06/Screenshot(19).png" width="1000px" height="450px">
     <img src="./Project_Image_06/Screenshot(20).png" width="1000px" height="450px">
+    <p>Step 13:After you can write the Command line Interface(CLI) on EC2 instance Connect.</p>
     <img src="./Project_Image_06/Screenshot(21).png" width="1000px" height="450px">
-    <p>Step 13:After you can right the Command line Interface(CLI) on EC2 instance Connect.</p>
     <img src="./Project_Image_06/Screenshot(22).png" width="1000px" height="450px">
+    <p>Step 14:Our html page is ready to check launch your server with running or not on your browser? after select the "checkbox:Webserver01, after go and copy on that "Public IPV4 Address:3.110.219.224" and after Paste the "Public IPV4 address:3.110.219.224" in another browser, finally, you can seen "Welcome to INDIA" in your browser Successfully.</p>
     <img src="./Project_Image_06/Screenshot(23).png" width="1000px" height="450px">
-    <p>Step 15:Our html page is ready to check launch your server with running or not on your browser? after select the "checkbox:Webserver01, after go and copy on that "Public IPV4 Address:3.110.219.224" and after Paste the "Public IPV4 address:3.110.219.224" in another browser, finally, you can seen "Welcome to India" in your browser Successfully.</p>
     <img src="./Project_Image_06/Screenshot(24).png" width="1000px" height="450px">
+    <h3>::Create Image(AMI) Inside WebServer01 in EC2 Service::</h3>
+    <p>Step 15:I want to convert this instance into AMIs(Images), after select the "Checkbox:Webserver01", after go and click on that "Actions", and after go and click on that "image and templates", and after go and click on that "Create image" in Mumbai Region.</p>
     <img src="./Project_Image_06/Screenshot(25).png" width="1000px" height="450px">
-    <h3>::Create Image(AMI) Inside WebServer01::</h3>
-    <p>Step 16:I want to convert this instance into AMIs(Images), after select the "Checkbox:Webserver01", after go and click on that "Actions", and after go and click on that "image and templates", and after go and click on that "Create image" in Mumbai Region.</p>
+    <p>Step 16:Inside "Create image" in "Instance ID" you can give the "Image name: my-img-mummbai", in Mumbai region.</p>
     <img src="./Project_Image_06/Screenshot(26).png" width="1000px" height="450px">
-    <p>Step 17:Inside "Create image" in "Instance ID" you can give the "Image name: my-img-mummbai", in Mumbai region.</p>
+    <p>Step 17:After scroll down go and click on that "Create image", in mumbai region.</p>
     <img src="./Project_Image_06/Screenshot(27).png" width="1000px" height="450px">
-    <p>Step 18:After scroll down go and click on that "Create image", in mumbai region.</p>
+    <p>Step 18:Finally "Create Image" in Mumbai region Successfully</p>
     <img src="./Project_Image_06/Screenshot(28).png" width="1000px" height="450px">
-    <p>Step 19:Finally "Create Image" in Mumbai region Successfully</p>
-    <img src="./Project_Image_06/Screenshot(29).png" width="1000px" height="450px">
     <h4>::Copy AMI In Mumbai Region::</h4>
-    <p>Step 20:After go and select on that "Amazon Machine Image(AMIs):my-img-mumbai " inside in EC2 service in Mumbai region, Once it is showing status "Available" in Mumbai region, and after go and click on that "Actions", after go and click on that "Copy AMI" in Mumbai region.</p>
+    <p>Step 19:After go and select on that "Amazon Machine Image(AMIs):my-img-mumbai " inside in EC2 service in Mumbai region, Once it is showing status "Available" in Mumbai region, and after go and click on that "Actions", after go and click on that "Copy AMI" in Mumbai region.</p>
+    <img src="./Project_Image_06/Screenshot(29).png" width="1000px" height="450px">
+    <p>Step 20:Inside "Copy AMI" you can select the any "Destination region" Asia Pacific(Singapore)" region, because this is very low costly in singapore region that's we are using Singapore region, but others regions are very high costly that's why we are not using that one, After go and click on that "Copy AMI"</p>
     <img src="./Project_Image_06/Screenshot(30).png" width="1000px" height="450px">
-    <p>Step 21:Inside "Copy AMI" you can select the any "Destination region" Asia Pacific(Singapore)" region, because this is very low costly in singapore region that's we are using Singapore region, but others regions are very high costly that's why we are not using that one, After go and click on that "Copy AMI"</p>
     <img src="./Project_Image_06/Screenshot(31).png" width="1000px" height="450px">
-    <img src="./Project_Image_06/Screenshot(32).png" width="1000px" height="450px">
-   <p>Step 22:Finally now "AMI Copy" in Singapore region successfully.</p>
+   <p>Step 21:Finally now "AMI Copy" in Singapore region successfully.</p>
+   <img src="./Project_Image_06/Screenshot(32).png" width="1000px" height="450px">
+   <p>Step 22:After go and select on that "Asia Pacific(Singapore) region (ap-southeast-1) from Mumbai region.</p> 
    <img src="./Project_Image_06/Screenshot(33).png" width="1000px" height="450px">
-   <p>Step 23:After go and select on that "Asia Pacific(Singapore) region (ap-southeast-1) from Mumbai region.</p> 
+   <h4>::Launch Instance inside EC2 Service in Singapore Region::</h4>
+   <p>Step 23:After Select the Checkbox "Amazon Machine images(AMIs):my-img-singapore", and after go and click on that "Launch instance" from AMI in singapore region.</p>
    <img src="./Project_Image_06/Screenshot(34).png" width="1000px" height="450px">
-   <h4>::Launch Instance in Singapore Region::</h4>
-   <p>Step 24:After Select the Checkbox "Amazon Machine images(AMIs):my-img-singapore", and after go and click on that "Launch instance" from AMI in singapore region.</p>
+   <p>Step 24:Inside "Launch an Instance" give "Name and tags" you can give the "Name:Singapore-WebServer" in Singapore region, after keep in default in somethings.</p>
    <img src="./Project_Image_06/Screenshot(35).png" width="1000px" height="450px">
-   <p>Step 25:Inside "Launch an Instance" give "Name and tags" you can give the "Name:Singapore-WebServer" in Singapore region, after keep in default in somethings.</p>
    <img src="./Project_Image_06/Screenshot(36).png" width="1000px" height="450px">
    <img src="./Project_Image_06/Screenshot(37).png" width="1000px" height="450px">
+   <p>Step 25: Inside "Launch an Instance" given "key pair(login)" if you don't have "key pair name" you can "Create new key pair" after you can click on that "Create new key pair" and after inside "Create key pair" you can give "Key pair name:Singapore-key-pair" after you can select "Key pair type:RSA" and after you can also select "Private file format:(.pem)(for use with OpenSSH{for Gitbash, Amazon linux, etc..})" after you can click on that "Create Key pair", finally your's Key Create Successfully in signapore region.</p>
    <img src="./Project_Image_06/Screenshot(38).png" width="1000px" height="450px">
-   <p>Step 26: Inside "Launch an Instance" given "key pair(login)" if you don't have "key pair name" you can "Create new key pair" after you can click on that "Create new key pair" and after inside "Create key pair" you can give "Key pair name:Singapore-key-pair" after you can select "Key pair type:RSA" and after you can also select "Private file format:(.pem)(for use with OpenSSH{for Gitbash, Amazon linux, etc..})" after you can click on that "Create Key pair", finally your's Key Create Successfully in signapore region.</p>
    <img src="./Project_Image_06/Screenshot(39).png" width="1000px" height="450px">
    <img src="./Project_Image_06/Screenshot(40).png" width="1000px" height="450px">
+   <p>Step 26: Inside "Launch an Instance" given "Network Settings" click on "Edit" button on right side corner in "Network settings" and after select default "VPC:vpc0d03551655320d***", and select "Subnet:No preference"(Here i am not given any preference zone), and "Auto-assign Public IP:Enable", select on that "Create security group" and you can give the name of "Security group name:Singapore-sec-grp" and you can give same "Description:Singapore-sec-grp", In "Inbound security group rules" give the permission "type:ssh, "Protcol:TCP", Port range:22, "Source type:Anywhere", "Source(0.0.0.0/0)" "Description: Securly connecting Host Server(Linux and Ubuntu Server)" and after go and click on that "Add security group rule" and also Allow "type:HTTP, "Protcol:TCP", Port range:80, "HTTP:80", "Source type:AnyWhere(0.0.0.0/0)", you can select "Source:(0.0.0.0/0)" and you can type on "description:for Web Hosting" and after go and click on that "Add security group rule" and also Allow "type:HTTPS, "Protcol:TCP", Port range:443, "Source type:Anywhere", "Source(0.0.0.0/0)" "Description:Security for Web Hosting" and after you can keep in default everythings, after click on that "Launch Instance" in singapore region.</p>
    <img src="./Project_Image_06/Screenshot(41).png" width="1000px" height="450px">
-   <p>Step 27: Inside "Launch an Instance" given "Network Settings" click on "Edit" button on right side corner in "Network settings" and after select default "VPC:vpc0d03551655320d***", and select "Subnet:No preference"(Here i am not given any preference zone), and "Auto-assign Public IP:Enable", select on that "Create security group" and you can give the name of "Security group name:Singapore-sec-grp" and you can give same "Description:Singapore-sec-grp", In "Inbound security group rules" give the permission "type:ssh, "Protcol:TCP", Port range:22, "Source type:Anywhere", "Source(0.0.0.0/0)" "Description: Securly connecting Host Server(Linux and Ubuntu Server)" and after go and click on that "Add security group rule" and also Allow "type:HTTP, "Protcol:TCP", Port range:80, "HTTP:80", "Source type:AnyWhere(0.0.0.0/0)", you can select "Source:(0.0.0.0/0)" and you can type on "description:for Web Hosting" and after go and click on that "Add security group rule" and also Allow "type:HTTPS, "Protcol:TCP", Port range:443, "Source type:Anywhere", "Source(0.0.0.0/0)" "Description:Security for Web Hosting" and after you can keep in default everythings, after click on that "Launch Instance" in singapore region.</p>
    <img src="./Project_Image_06/Screenshot(42).png" width="1000px" height="450px">
    <img src="./Project_Image_06/Screenshot(43).png" width="1000px" height="450px">
    <img src="./Project_Image_06/Screenshot(44).png" width="1000px" height="450px">
    <img src="./Project_Image_06/Screenshot(45).png" width="1000px" height="450px">
+   <p>Step 27:Finally "launch Instance from AMI" Successfully in Signapore region, after select the checkbox:Singapore-WebServer", after go and Copy on that "Public IPV4 Address:18.141.177.200", and after paste "Public IPV4 Address:18.141.177.200", in another browser you can there is showing "Welcome To India" Successfully.</p>
    <img src="./Project_Image_06/Screenshot(46).png" width="1000px" height="450px">
-   <p>Step 28:Finally "launch Instance from AMI" Successfully in Signapore region, after select the checkbox:Singapore-WebServer", after go and Copy on that "Public IPV4 Address:18.141.177.200", and after paste "Public IPV4 Address:18.141.177.200", in another browser you can there is showing "Welcome To India" Successfully.</p>
+   <p>Step 28:After select the "Checkbox:Singapore-WebServer", after go and click on that "Connect", and after go and click on that "EC2 instance connect", and after go and click on that "Connect", After you can write the Command line Interface(CLI) on EC2 instance Connect.</p>
    <img src="./Project_Image_06/Screenshot(47).png" width="1000px" height="450px">
    <img src="./Project_Image_06/Screenshot(48).png" width="1000px" height="450px">
+    <img src="./Project_Image_06/Screenshot(49).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(50).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(51).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(52).png" width="1000px" height="450px">
+   <h4>::Launch Template inside EC2 Service in Mumbai Region::</h4>
+   <p>Step 29:In left corner given "Launch Template" inside EC2 Service, after go and click on that "Launch Templates".</p>
+   <img src="./Project_Image_06/Screenshot(53).png" width="1000px" height="450px">
+   <p>Step 30:Inside EC2 launch templates, after go and click on that "Create launch template.</p>
+   <img src="./Project_Image_06/Screenshot(54).png" width="1000px" height="450px">
+   <p>Step 31:Inside Create launch template, you can give the "launch template name:my-template", after you can keep in default template version description.</p>
+   <img src="./Project_Image_06/Screenshot(55).png" width="1000px" height="450px">
+   <p>Step 32:Inside Create launch template, in Application and OS Images (Amazon Machine Image), you can select on that "My AMIs:Owned by me".</p>
+   <img src="./Project_Image_06/Screenshot(56).png" width="1000px" height="450px">
+   <p>Step 33:After Inside Create launch template, you can select "Instance type:t2.micro or t2.nano".</p>
+   <img src="./Project_Image_06/Screenshot(57).png" width="1000px" height="450px">
+   <p>Step 34:After Inside Create launch template, you can select "Key-pair(login):mine_key".</p>
+   <img src="./Project_Image_06/Screenshot(58).png" width="1000px" height="450px">
+   <p>Step 35:After inside Create launch template, in Network Settings" you can select the option "Select existing Security group:Allforuser-sec-grp", after keep in default everythings, and after go and click on that "Create launch template".</p>
+   <img src="./Project_Image_06/Screenshot(59).png" width="1000px" height="450px">
+   <p>Step 36:finally "launch template in Mumbai Region" Successfully.</p>
+   <img src="./Project_Image_06/Screenshot(60).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(61).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(62).png" width="1000px" height="450px">
+   <h4>::Launch Instance from template inside EC2 Service in Mumbai region::</h4>
+   <p>Step 37: Inside Launch templates in Mumbai Region, you can select the "launch template ID:It-ob2785915356da1b", after go and click on that "Actions", after go and click on that "launch instance from template".</p>
+   <img src="./Project_Image_06/Screenshot(63).png" width="1000px" height="450px">
+   <p>Step 38:Inside Launch instance from template in choose a launch template, you can select the "Source template:my-launch-template-mum", after you can everythings are select already by default.</p>
+   <img src="./Project_Image_06/Screenshot(64).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(65).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(66).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(67).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(68).png" width="1000px" height="450px">
+   <p>Step 39: Finally Launch Instance from tempalate in Mumbai region Successfully, you can see there are having two launch instance in Mumbai region</p>
+   <img src="./Project_Image_06/Screenshot(69).png" width="1000px" height="450px">
+   <img src="./Project_Image_06/Screenshot(70).png" width="1000px" height="450px">
 </body>
 </html>  
